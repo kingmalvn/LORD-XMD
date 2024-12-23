@@ -1,0 +1,37 @@
+{
+  "name": "lord",
+  "version": "1.0.0",
+  "description": "lord xnd WhatsApp bot created malvin king using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name lord",
+    "stop": "pm2 stop lord",
+    "restart": "pm2 restart lord"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.9",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "pino": "^7.0.5",
+    "pm2": "^5.2.0",
+    "util": "^0.12.4",
+    "express": "latest",
+    "axios": "^1.2.5",
+    "file_size_url": "^1.0.4",
+    "fs-extra": "^11.1.0",
+    "path": "^0.12.7",
+    "node-fetch": "^2.6.1",
+    "megajs": "1.3.3",
+    "vm": "^0.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "yt-search": "2.11.1",
+    "api-dylux": "1.8.5",
+    "google-tts-api":"2.0.2",
+    "wa-sticker-formatter":"4.4.4",
+    "ruhend-scraper":"8.0.3",
+    "child_process":"1.0.2",
+    "@mrnima/tiktok-downloader":"1.0.0",
+    "@mrnima/facebook-downloader":"1.0.0",
+    "mrnima-moviedl":"1.0.0",
+    "@dark-yasiya/yt-dl.js":"latest"
+  }
+}
