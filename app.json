@@ -1,6 +1,6 @@
 {
   "name": "LORD-XMD",
-  "description": "ʟᴏʀᴅ xᴍᴅ Whatsapp bot © ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ · · ·",
+  "description": "ʟᴏʀᴅ xᴍᴅ ᴛʜᴇ ʙᴇsᴛ 2025 ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ʙʏ ᴛᴇᴄʜ ʟᴏʀᴅ",
   "logo": "https://files.catbox.moe/ug2x1y.jpg",
   "keywords": ["bot"],
   "success_url": "/",
@@ -10,56 +10,94 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": "public"
+      "value": ""
     },  
     
-    "MODE": {
-      "description": "private,inbox,group,public",
+    "ALIVE_IMG": {
+      "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "public"
-   },
+      "value": "https://files.catbox.moe/ug2x1y.jpg"
+    }, 
+    
+    "ALIVE_MSG": {
+      "description": "paste your alive message hear.",
+      "required": true,
+      "value": "Hey Babew Your Employee is available for you"
+    },
     
     "PREFIX": {
-      "description": "#,!,/,$",
+      "description": "paste your bot prefix note! Don't apply null prefix.",
       "required": true,
       "value": "."
     },
     
+    "MODE": {
+      "description": "select your bot work type public-private-inbox-group.",
+      "required": true,
+      "value": "public"
+    }, 
+
     "AUTO_VOICE": {
-      "description": "Auto send voice message",
+      "description": "Make it true if you want bot auto voice.",
       "required": true,
       "value": "true"
-    },
-    
+    }, 
+
     "AUTO_REPLY": {
-      "description": "Auto reply message",
+      "description": "Make it true if you want bot auto reply.",
       "required": true,
       "value": "true"
-    },
-    
-    "AUTO_REACT": {
-      "description": "Auto react massage",
+    }, 
+
+    "AUTO_STICKER": {
+      "description": "Make it true if you want bot auto sticker.",
       "required": true,
       "value": "false"
-    },
-    
+    }, 
+
     "AUTO_READ_STATUS": {
-      "description": "Just Now reading status",
+      "description": "Make it true if you want bot auto auto_read_status.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "ANTI_LINK": {
+      "description": "Make it true if you want bot auto remove group link.",
       "required": true,
       "value": "true"
     },
-    
+
     "ANTI_BAD": {
-      "description": "Bad words remove",
+      "description": "Make it true if you want bot auto delete bad words from group example xxx porn etc.",
       "required": true,
       "value": "false"
+    }, 
+
+    "FAKE_RECORDING": {
+      "description": "Make it true if you want bot fake record.",
+      "required": true,
+      "value": "true"
     },
-    
-    "ANTI_LINK": {
-      "description": "Anti link remove",
+
+    "AUTO_REACT": {
+      "description": "Make it true if you want bot AutoReact.",
       "required": true,
-      "value": "false"
+      "value": "true"
+    },
+
+    "OWNER_REACT": {
+      "description": "Make it true if you want bot OwnerReact.",
+      "required": true,
+      "value": "true"
+    
+    }, 
+
+    "BOT_NAME": {
+      "description": "write hear your name.",
+      "required": true,
+      "value": "𝙻𝙾𝚁𝙳 𝚇𝙼𝙳"
     }
+
 },
 
      "buildpacks": [

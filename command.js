@@ -1,6 +1,3 @@
-//LORD-XMD Whatsapp User Bot
-//Created BY MALVIN 
-
 var commands = [];
 
 function cmd(info, func) {
