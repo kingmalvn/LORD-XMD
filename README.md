@@ -17,7 +17,7 @@
 **1. First step**
 
 <p align="left">
-<a href='https://github.com/kingmalvn/LORD-XMD/fork' target="_blank"><img alt='Fork Repo' src='https://img.shields.io/badge/-Fork Repo-blue?style=for-the-badge&logo=github&logoColor=white'/< width=115 height=28/p></a>
+<a href='https://github.com/kingmalvn/prince_yawo' target="_blank"><img alt='Fork Repo' src='https://img.shields.io/badge/-Fork Repo-blue?style=for-the-badge&logo=github&logoColor=white'/< width=115 height=28/p></a>
    
 **2. Second Step**
 
